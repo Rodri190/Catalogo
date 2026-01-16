@@ -1,0 +1,25 @@
+<div class="product-card">
+  <div class="image-container">
+    <img [src]="product.image" [alt]="product.name" class="product-image">
+    <div class="product-type-badge">
+      {{ product.type === 'tv' ? 'Televisor' : 'Parlante' }}
+    </div>
+  </div>
+  <div class="product-content">
+    <div class="product-header">
+      <h3 class="product-name">{{ product.name }}</h3>
+      <span class="product-brand">{{ product.brand }}</span>
+    </div>
+    <p class="product-description">{{ product.description }}</p>
+    <div class="product-details">
+      <span class="detail-item" *ngIf="product.size">
+        <span class="detail-icon">📺</span>
+        {{ product.size }}
+      </span>
+      <span class="detail-item" *ngIf="product.specs">
+        <span class="detail-icon">🔊</span>
+        {{ product.specs }}
+      </span>
+    </div>
+  </div>
+</div>

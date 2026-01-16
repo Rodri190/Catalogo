@@ -1,0 +1,11 @@
+<div class="filter-container">
+  <label for="brand-select" class="filter-label">Filtrar por marca:</label>
+  <select
+    id="brand-select"
+    [(ngModel)]="selectedBrand"
+    (change)="onBrandChange()"
+    class="filter-select">
+    <option value="all">Todas las marcas</option>
+    <option *ngFor="let brand of brands" [value]="brand">{{ brand }}</option>
+  </select>
+</div>
