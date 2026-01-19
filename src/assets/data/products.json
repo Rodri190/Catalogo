@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Samsung QLED 4K",
+    "brand": "Samsung",
+    "type": "tv",
+    "description": "T5200 FHD Smart TV (2020) UN43T5202AGXZS",
+    "size": "55 pulgadas",
+    "image": "/assets/imagenes/tvs/Samsung/43p.png"
+  },
+  {
+    "id": 2,
+    "name": "LG OLED C3",
+    "brand": "LG",
+    "type": "tv",
+    "description": "Pantalla OLED con negros perfectos y colores impresionantes",
+    "size": "65 pulgadas",
+    "image": "/assets/images/tvs/lg-oled-c3.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Sony Bravia XR",
+    "brand": "Sony",
+    "type": "tv",
+    "description": "Procesador cognitivo XR para imagen y sonido premium",
+    "size": "55 pulgadas",
+    "image": "/assets/images/tvs/sony-bravia.jpg"
+  },
+  {
+    "id": 4,
+    "name": "TCL Mini LED",
+    "brand": "TCL",
+    "type": "tv",
+    "description": "Tecnología Mini LED con alto brillo y contraste",
+    "size": "50 pulgadas",
+    "image": "/assets/images/tvs/tcl-mini-led.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Xiaomi Mi TV",
+    "brand": "Xiaomi",
+    "type": "tv",
+    "description": "Smart TV con Android TV y diseño minimalista",
+    "size": "43 pulgadas",
+    "image": "/assets/images/tvs/xiaomi-mi-tv.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Master G Smart TV",
+    "brand": "Master G",
+    "type": "tv",
+    "description": "Smart TV 4K con HDR y conectividad completa",
+    "size": "50 pulgadas",
+    "image": "/assets/images/tvs/master-g.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Samsung Soundbar HW-Q800",
+    "brand": "Samsung",
+    "type": "speaker",
+    "description": "Barra de sonido premium con Dolby Atmos",
+    "specs": "Potencia: 330W, Subwoofer inalámbrico, Bluetooth 5.0",
+    "image": "/assets/images/speakers/samsung-hw-q800.jpg"
+  },
+  {
+    "id": 8,
+    "name": "LG Sound Bar",
+    "brand": "LG",
+    "type": "speaker",
+    "description": "Sistema de audio envolvente con subwoofer",
+    "specs": "Potencia: 300W, DTS:X, Wi-Fi y Bluetooth",
+    "image": "/assets/images/speakers/lg-soundbar.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Sony HT-A7000",
+    "brand": "Sony",
+    "type": "speaker",
+    "description": "Barra de sonido premium con audio espacial",
+    "specs": "Potencia: 500W, Sonido 360, HDMI eARC",
+    "image": "/assets/images/speakers/sony-hta7000.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Prime Audio System",
+    "brand": "Prime",
+    "type": "speaker",
+    "description": "Sistema de audio 2.1 con graves potentes",
+    "specs": "Potencia: 150W, Subwoofer de 6.5\", USB y Bluetooth",
+    "image": "/assets/images/speakers/prime-audio.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Skyword Premium Sound",
+    "brand": "Skyword",
+    "type": "speaker",
+    "description": "Parlantes bluetooth portátiles de alta fidelidad",
+    "specs": "Potencia: 80W, Batería 12h, Resistente al agua IPX7",
+    "image": "/assets/images/speakers/skyword.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Haier Home Theater",
+    "brand": "Haier",
+    "type": "speaker",
+    "description": "Sistema de cine en casa 5.1",
+    "specs": "Potencia: 400W, 5 satélites + Subwoofer, DVD incluido",
+    "image": "/assets/images/speakers/haier-ht.jpg"
+  }
+]

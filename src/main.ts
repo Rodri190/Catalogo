@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { provideHttpClient } from '@angular/common/http';
 import { bootstrapApplication } from '@angular/platform-browser';
 import { HeaderComponent } from './app/components/header/header.component';
 import { FilterComponent } from './app/components/filter/filter.component';
@@ -33,12 +34,23 @@ export class App {
   filteredProducts: Product[] = [];
 
   constructor(private productService: ProductService) {
-    this.filteredProducts = this.productService.getProducts();
+    this.loadProducts();
+  }
+
+  loadProducts(): void {
+    this.productService.getProducts().subscribe(products => {
+      this.filteredProducts = products;
+    });
   }
 
   filterByBrand(brand: string): void {
-    this.filteredProducts = this.productService.getProductsByBrand(brand);
+    this.productService.getProductsByBrand(brand).subscribe(products => {
+      this.filteredProducts = products;
+    });
   }
 }
 
-bootstrapApplication(App);
+
+bootstrapApplication(App, {
+  providers: [provideHttpClient()]
+});
