@@ -4,9 +4,14 @@
     "name": "Samsung QLED 4K",
     "brand": "Samsung",
     "type": "tv",
-    "description": "T5200 FHD Smart TV (2020) UN43T5202AGXZS",
+    "description": "Televisor QLED con tecnología Quantum Dot para colores vibrantes",
     "size": "55 pulgadas",
-    "image": "/assets/imagenes/tvs/Samsung/43p.png"
+    "resolution": "4K UHD (3840 x 2160)",
+    "refreshRate": "60Hz",
+    "hdr": "HDR10+",
+    "smartTV": "Tizen OS",
+    "connectivity": "WiFi 6, HDMI 2.1, USB",
+    "image": "https://images.pexels.com/photos/1201996/pexels-photo-1201996.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
     "id": 2,
@@ -15,7 +20,12 @@
     "type": "tv",
     "description": "Pantalla OLED con negros perfectos y colores impresionantes",
     "size": "65 pulgadas",
-    "image": "/assets/images/tvs/lg-oled-c3.jpg"
+    "resolution": "4K UHD (3840 x 2160)",
+    "refreshRate": "120Hz",
+    "hdr": "HDR10, HLG, Dolby Vision",
+    "smartTV": "webOS",
+    "connectivity": "WiFi 6E, HDMI 2.1, USB",
+    "image": "https://images.pexels.com/photos/1201996/pexels-photo-1201996.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
     "id": 3,
@@ -24,7 +34,12 @@
     "type": "tv",
     "description": "Procesador cognitivo XR para imagen y sonido premium",
     "size": "55 pulgadas",
-    "image": "/assets/images/tvs/sony-bravia.jpg"
+    "resolution": "4K UHD (3840 x 2160)",
+    "refreshRate": "120Hz",
+    "hdr": "HDR10, Dolby Vision, HLG",
+    "smartTV": "Google TV",
+    "connectivity": "WiFi 6, HDMI 2.1, Bluetooth 5.2",
+    "image": "https://images.pexels.com/photos/1201996/pexels-photo-1201996.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
     "id": 4,
@@ -33,7 +48,12 @@
     "type": "tv",
     "description": "Tecnología Mini LED con alto brillo y contraste",
     "size": "50 pulgadas",
-    "image": "/assets/images/tvs/tcl-mini-led.jpg"
+    "resolution": "4K UHD (3840 x 2160)",
+    "refreshRate": "60Hz",
+    "hdr": "HDR10+",
+    "smartTV": "Google TV",
+    "connectivity": "WiFi 5, HDMI 2.1, USB",
+    "image": "https://images.pexels.com/photos/1201996/pexels-photo-1201996.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
     "id": 5,
@@ -42,7 +62,12 @@
     "type": "tv",
     "description": "Smart TV con Android TV y diseño minimalista",
     "size": "43 pulgadas",
-    "image": "/assets/images/tvs/xiaomi-mi-tv.jpg"
+    "resolution": "Full HD (1920 x 1080)",
+    "refreshRate": "60Hz",
+    "hdr": "HDR10",
+    "smartTV": "Android TV",
+    "connectivity": "WiFi 5, HDMI, USB",
+    "image": "https://images.pexels.com/photos/1201996/pexels-photo-1201996.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
     "id": 6,
@@ -51,7 +76,12 @@
     "type": "tv",
     "description": "Smart TV 4K con HDR y conectividad completa",
     "size": "50 pulgadas",
-    "image": "/assets/images/tvs/master-g.jpg"
+    "resolution": "4K UHD (3840 x 2160)",
+    "refreshRate": "60Hz",
+    "hdr": "HDR10",
+    "smartTV": "Android TV",
+    "connectivity": "WiFi 5, HDMI, USB",
+    "image": "https://images.pexels.com/photos/1201996/pexels-photo-1201996.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
     "id": 7,
@@ -59,8 +89,12 @@
     "brand": "Samsung",
     "type": "speaker",
     "description": "Barra de sonido premium con Dolby Atmos",
-    "specs": "Potencia: 330W, Subwoofer inalámbrico, Bluetooth 5.0",
-    "image": "/assets/images/speakers/samsung-hw-q800.jpg"
+    "power": "330W",
+    "channels": "7.1.2",
+    "features": "Dolby Atmos, DTS:X, Subwoofer inalámbrico",
+    "connectivity": "Bluetooth 5.0, HDMI eARC, WiFi",
+    "frequency": "20Hz - 20kHz",
+    "image": "https://images.pexels.com/photos/3587478/pexels-photo-3587478.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
     "id": 8,
@@ -68,8 +102,12 @@
     "brand": "LG",
     "type": "speaker",
     "description": "Sistema de audio envolvente con subwoofer",
-    "specs": "Potencia: 300W, DTS:X, Wi-Fi y Bluetooth",
-    "image": "/assets/images/speakers/lg-soundbar.jpg"
+    "power": "300W",
+    "channels": "5.1.2",
+    "features": "DTS:X, AI Sound Pro, Subwoofer inalámbrico",
+    "connectivity": "WiFi, Bluetooth 5.0, HDMI eARC",
+    "frequency": "20Hz - 20kHz",
+    "image": "https://images.pexels.com/photos/3587478/pexels-photo-3587478.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
     "id": 9,
@@ -77,8 +115,12 @@
     "brand": "Sony",
     "type": "speaker",
     "description": "Barra de sonido premium con audio espacial",
-    "specs": "Potencia: 500W, Sonido 360, HDMI eARC",
-    "image": "/assets/images/speakers/sony-hta7000.jpg"
+    "power": "500W",
+    "channels": "7.1.2",
+    "features": "Dolby Atmos, Sonido 360, Tecnología Acoustic Center Sync",
+    "connectivity": "HDMI eARC, Bluetooth 5.0, WiFi, USB",
+    "frequency": "20Hz - 20kHz",
+    "image": "https://images.pexels.com/photos/3587478/pexels-photo-3587478.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
     "id": 10,
@@ -86,8 +128,12 @@
     "brand": "Prime",
     "type": "speaker",
     "description": "Sistema de audio 2.1 con graves potentes",
-    "specs": "Potencia: 150W, Subwoofer de 6.5\", USB y Bluetooth",
-    "image": "/assets/images/speakers/prime-audio.jpg"
+    "power": "150W",
+    "channels": "2.1",
+    "features": "Subwoofer de 6.5\", Bajos profundos, Control remoto",
+    "connectivity": "Bluetooth, USB, AUX de 3.5mm",
+    "frequency": "20Hz - 20kHz",
+    "image": "https://images.pexels.com/photos/3587478/pexels-photo-3587478.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
     "id": 11,
@@ -95,8 +141,12 @@
     "brand": "Skyword",
     "type": "speaker",
     "description": "Parlantes bluetooth portátiles de alta fidelidad",
-    "specs": "Potencia: 80W, Batería 12h, Resistente al agua IPX7",
-    "image": "/assets/images/speakers/skyword.jpg"
+    "power": "80W",
+    "channels": "2.0",
+    "features": "Batería 12h, Resistente al agua IPX7, Sonido envolvente 360°",
+    "connectivity": "Bluetooth 5.0, AUX de 3.5mm, USB-C",
+    "frequency": "20Hz - 20kHz",
+    "image": "https://images.pexels.com/photos/3587478/pexels-photo-3587478.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
     "id": 12,
@@ -104,7 +154,11 @@
     "brand": "Haier",
     "type": "speaker",
     "description": "Sistema de cine en casa 5.1",
-    "specs": "Potencia: 400W, 5 satélites + Subwoofer, DVD incluido",
-    "image": "/assets/images/speakers/haier-ht.jpg"
+    "power": "400W",
+    "channels": "5.1",
+    "features": "5 satélites + Subwoofer, DVD incluido, Remoto inalámbrico",
+    "connectivity": "HDMI, RCA, AUX de 3.5mm, USB",
+    "frequency": "20Hz - 20kHz",
+    "image": "https://images.pexels.com/photos/3587478/pexels-photo-3587478.jpeg?auto=compress&cs=tinysrgb&w=800"
   }
 ]
