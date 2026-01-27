@@ -1,4 +1,4 @@
-<div class="product-card">
+<div class="product-card" (click)="onCardClick()">
   <div class="image-container">
     <img [src]="product.image" [alt]="product.name" class="product-image">
     <div class="product-type-badge">
@@ -13,11 +13,9 @@
     <p class="product-description">{{ product.description }}</p>
     <div class="product-details">
       <span class="detail-item" *ngIf="product.size">
-        <span class="detail-icon">📺</span>
         {{ product.size }}
       </span>
       <span class="detail-item" *ngIf="product.specs">
-        <span class="detail-icon">🔊</span>
         {{ product.specs }}
       </span>
     </div>
