@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable, map } from 'rxjs';
+import { Observable, BehaviorSubject, shareReplay, of } from 'rxjs';
+import { map, tap, catchError } from 'rxjs/operators';
 
 export interface Product {
   id: number;
@@ -28,21 +29,38 @@ export interface Product {
 })
 export class ProductService {
 
-  private readonly dataUrl = '/assets/data/products.json';
+  private readonly dataUrl = 'assets/data/products.json';
+  private products$ = new BehaviorSubject<Product[]>([]);
+  private productsCache$: Observable<Product[]>;
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) {
+    this.productsCache$ = this.http.get<Product[]>(this.dataUrl).pipe(
+      tap(products => {
+        console.log('Productos cargados del JSON:', products);
+        this.products$.next(products);
+      }),
+      catchError(error => {
+        console.error('Error cargando productos:', error);
+        return of([]);
+      }),
+      shareReplay(1)
+    );
+    
+    // Cargar datos inmediatamente al inicializar
+    this.productsCache$.subscribe();
+  }
 
   getProducts(): Observable<Product[]> {
-    return this.http.get<Product[]>(this.dataUrl);
+    return this.productsCache$;
   }
 
   getProductsByBrand(brand: string): Observable<Product[]> {
-    return this.getProducts().pipe(
+    return this.productsCache$.pipe(
       map(products => {
         if (!brand || brand === 'all') {
           return products;
         }
-        return products.filter(p => p.brand === brand);
+        return products.filter(p => p.brand === brand).slice(0, 3);
       })
     );
   }
