@@ -1,0 +1,87 @@
+<div class="modal-backdrop" *ngIf="isOpen" (click)="closeOnBackdrop($event)">
+  <div class="modal-container" *ngIf="product">
+    <button class="close-btn" (click)="close()">✕</button>
+    
+    <div class="modal-content">
+      <div class="modal-image-section">
+        <img [src]="product.image" [alt]="product.name" class="modal-image">
+        <span class="modal-badge">{{ product.type === 'tv' ? 'Televisor' : 'Parlante' }}</span>
+      </div>
+      
+      <div class="modal-details-section">
+        <h2 class="modal-title">{{ product.name }}</h2>
+        
+        <p class="modal-brand">{{ product.brand }}</p>
+        
+        <p class="modal-description">{{ product.description }}</p>
+        
+        <!-- TV Specifications -->
+        <div class="modal-specs" *ngIf="product.type === 'tv'">
+          <h3 class="specs-title">Especificaciones</h3>
+          <div class="spec-item" *ngIf="product.size">
+            <span class="spec-icon">📺</span>
+            <span class="spec-label">Tamaño:</span>
+            <span class="spec-value">{{ product.size }}</span>
+          </div>
+          <div class="spec-item" *ngIf="product.resolution">
+            <span class="spec-icon">🎬</span>
+            <span class="spec-label">Resolución:</span>
+            <span class="spec-value">{{ product.resolution }}</span>
+          </div>
+          <div class="spec-item" *ngIf="product.refreshRate">
+            <span class="spec-icon">⚡</span>
+            <span class="spec-label">Frecuencia:</span>
+            <span class="spec-value">{{ product.refreshRate }}</span>
+          </div>
+          <div class="spec-item" *ngIf="product.hdr">
+            <span class="spec-icon">✨</span>
+            <span class="spec-label">HDR:</span>
+            <span class="spec-value">{{ product.hdr }}</span>
+          </div>
+          <div class="spec-item" *ngIf="product.smartTV">
+            <span class="spec-icon">📱</span>
+            <span class="spec-label">Sistema:</span>
+            <span class="spec-value">{{ product.smartTV }}</span>
+          </div>
+          <div class="spec-item" *ngIf="product.connectivity">
+            <span class="spec-icon">🔌</span>
+            <span class="spec-label">Conectividad:</span>
+            <span class="spec-value">{{ product.connectivity }}</span>
+          </div>
+        </div>
+        
+        <!-- Speaker Specifications -->
+        <div class="modal-specs" *ngIf="product.type === 'speaker'">
+          <h3 class="specs-title">Especificaciones</h3>
+          <div class="spec-item" *ngIf="product.power">
+            <span class="spec-icon">🔊</span>
+            <span class="spec-label">Potencia:</span>
+            <span class="spec-value">{{ product.power }}</span>
+          </div>
+          <div class="spec-item" *ngIf="product.channels">
+            <span class="spec-icon">🎵</span>
+            <span class="spec-label">Canales:</span>
+            <span class="spec-value">{{ product.channels }}</span>
+          </div>
+          <div class="spec-item" *ngIf="product.features">
+            <span class="spec-icon">⭐</span>
+            <span class="spec-label">Características:</span>
+            <span class="spec-value">{{ product.features }}</span>
+          </div>
+          <div class="spec-item" *ngIf="product.connectivity">
+            <span class="spec-icon">🔌</span>
+            <span class="spec-label">Conectividad:</span>
+            <span class="spec-value">{{ product.connectivity }}</span>
+          </div>
+          <div class="spec-item" *ngIf="product.frequency">
+            <span class="spec-icon">📊</span>
+            <span class="spec-label">Frecuencia:</span>
+            <span class="spec-value">{{ product.frequency }}</span>
+          </div>
+        </div>
+        
+        <button class="close-modal-btn" (click)="close()">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>

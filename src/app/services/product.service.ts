@@ -8,9 +8,19 @@ export interface Product {
   brand: string;
   type: 'tv' | 'speaker';
   description: string;
-  size?: string;
-  specs?: string;
   image: string;
+  // TV Properties
+  size?: string;
+  resolution?: string;
+  refreshRate?: string;
+  hdr?: string;
+  smartTV?: string;
+  connectivity?: string;
+  power?: string;
+  channels?: string;
+  features?: string;
+  frequency?: string;
+  specs?: string;
 }
 
 @Injectable({
