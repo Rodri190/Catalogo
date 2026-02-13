@@ -95,7 +95,7 @@
     "hdr": "HDR10",
     "smartTV": "Android TV",
     "connectivity": "WiFi 5, Bluetooth, HDMI, USB",
-    "image": "assets/imagenes/tvs/Premier/"
+    "image": "assets/imagenes/tvs/Premier/Premier LED 4K P7000.jpg"
   },
   {
     "id": 9,
@@ -495,7 +495,7 @@
     "hdr": "HDR10, HLG",
     "smartTV": "webOS25",
     "connectivity": "WiFi 6, Bluetooth, HDMI 2.0, USB",
-    "image" :"assets/imagenes/tvs/Lg/LG UA7500 4K.jpeg"
+    "image" :"assets/imagenes/tvs/Lg/LG UA7500 4K.jpg"
   },
   {
     "id": 46,
@@ -543,32 +543,19 @@
     "image": "assets/imagenes/tvs/Master-G/Master-G LED 4K MG7000.jpg"
   },
   {
-    "id": 49,
-    "name": "Premier LED 4K Smart TV P7000",
-    "brand": "Premier",
-    "type": "tv",
-    "description": "Smart TV LED 4K con Android TV, HDR y diseño moderno para entretenimiento en casa",
-    "year": 2025,
-    "size": ["43\"", "50\"", "55\"", "65\"", "75\""],
-    "resolution": "4K UHD (3840 x 2160)",
-    "refreshRate": "60Hz",
-    "hdr": "HDR10",
-    "smartTV": "Android TV",
-    "connectivity": "WiFi 5, Bluetooth, HDMI, USB"
-  },
-  {
     "id": 50,
     "name": "Premier LED Full HD Smart TV P5000",
     "brand": "Premier",
     "type": "tv",
     "description": "Smart TV Full HD con Android TV, ideal para salas medianas y dormitorios",
     "year": 2025,
-    "size": ["40\"", "43\""],
+    "size": ["43\"", "50\"", "55\"", "65\"", "75\""],
     "resolution": "Full HD (1920 x 1080)",
     "refreshRate": "60Hz",
     "hdr": "HDR",
     "smartTV": "Android TV",
-    "connectivity": "WiFi 5, Bluetooth, HDMI, USB"
+    "connectivity": "WiFi 5, Bluetooth, HDMI, USB",
+    "image": "assets/imagenes/tvs/Premier/Premier LED Full HD Smart TV P5000.jpg"
   },
   {
     "id": 51,
@@ -582,7 +569,8 @@
     "refreshRate": "60Hz",
     "hdr": "No",
     "smartTV": "Android TV",
-    "connectivity": "WiFi 4, HDMI, USB"
+    "connectivity": "WiFi 4, HDMI, USB",
+    "image": "assets/imagenes/tvs/Premier/Premier LED HD Smart TV P3000.jpg"
   },
   {
     "id": 52,
@@ -679,7 +667,7 @@
     "features": "Subwoofer integrado, Control remoto, Ecualizador",
     "connectivity": "Bluetooth, USB, AUX 3.5mm",
     "frequency": "20Hz - 20kHz",
-    "image": ""
+    "image": "assets/imagenes/tvs/Premier/Premier Sound System PS-4000 2.1CH.jpg"
   },
   {
     "id": 61,

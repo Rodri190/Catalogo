@@ -66,6 +66,6 @@ export class ProductService {
   }
 
   getBrands(): string[] {
-    return ['Samsung', 'LG', 'Master G', 'Prime', 'Skyworth', 'TCL', 'Sony', 'Xiaomi', 'Haier'];
+    return ['Samsung', 'LG', 'Master G', 'Premier', 'Skyworth', 'TCL', 'Sony', 'Xiaomi', 'Haier'];
   }
 }
