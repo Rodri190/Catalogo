@@ -60,12 +60,12 @@ export class ProductService {
         if (!brand || brand === 'all') {
           return products;
         }
-        return products.filter(p => p.brand === brand).slice(0, 3);
+        return products.filter(p => p.brand === brand);
       })
     );
   }
 
   getBrands(): string[] {
-    return ['Samsung', 'LG', 'Master G', 'Prime', 'Skyword', 'TCL', 'Sony', 'Xiaomi', 'Haier'];
+    return ['Samsung', 'LG', 'Master G', 'Prime', 'Skyworth', 'TCL', 'Sony', 'Xiaomi', 'Haier'];
   }
 }
